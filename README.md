@@ -1,9 +1,4 @@
-Here’s a concise and professional **README.md** written specifically for your repository
-**`Modified-TopUp-Laravel-Module-TZSMM-Pay`** 👇
 
----
-
-```markdown
 # 💳 Modified TopUp Laravel Module — TZSMM Pay Integration
 
 This repository contains a Laravel module designed to integrate the **TZSMM Pay** payment gateway into your **TopUp System**.  
@@ -108,9 +103,4 @@ You are free to modify and integrate it within your Laravel-based TopUp system.
 
 > ⚠️ **Note:** This module requires **Laravel 9+** and **Filament v3+**.
 
-```
 
----
-
-Would you like me to add a short **usage section** (example controller or payment request snippet) so developers know exactly how to trigger a payment using this module?
-```
