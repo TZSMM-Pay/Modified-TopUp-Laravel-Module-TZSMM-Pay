@@ -51,7 +51,7 @@ Modified-TopUp-Laravel-Module-TZSMM-Pay/
 1. **Clone this repository** into your Laravel project:
    ```bash
    git clone https://github.com/TZSMM-Pay/Modified-TopUp-Laravel-Module-TZSMM-Pay.git
-```
+   ```
 
 2. **Import the database file:**
 
