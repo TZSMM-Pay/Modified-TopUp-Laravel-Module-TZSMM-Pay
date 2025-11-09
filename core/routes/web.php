@@ -76,5 +76,5 @@ Route::group(['middleware' => ['auth'], 'as' => 'user.'], function () {
     Route::match(['get', 'post'], '/code/cancel', [PaymentController::class, 'codeCancel'])->name('code.cancel');
 });
   Route::match(['get', 'post'], '/deposit/{trx}/{gateway}', [PaymentController::class, 'depositIpn'])->name('user.deposit.ipn')->withoutMiddleware('auth');
-    Route::match(['get', 'post'], '/order/{trx}/{gateway}', [PaymentController::class, 'orderIpn'])->name('order.ipn')->withoutMiddleware('auth');
+    Route::match(['get', 'post'], '/order/{trx}/{gateway}', [PaymentController::class, 'orderIpn'])->name('user.order.ipn')->withoutMiddleware('auth');
 require __DIR__ . '/auth.php';
