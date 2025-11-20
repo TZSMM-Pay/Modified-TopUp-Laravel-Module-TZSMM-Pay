@@ -28,19 +28,32 @@ It enables users to make automated deposits and payments through the TZSMM Pay A
 
 ```
 
-Modified-TopUp-Laravel-Module-TZSMM-Pay/
-│
-├── app/
-│   └── Filament/
-│       └── Pages/
-│           └── Settings.php              # Filament admin settings for TZSMM Pay
+project-root/
 │
 ├── core/
-│   └── GeneralSettings.php               # Core gateway settings handler
+│   ├── app/
+│   │   ├── Filament/Pages/
+│   │   │   └── Settings.php
+│   │   │
+│   │   ├── Http/Controllers/User/
+│   │   │   └── DepositController.php
+│   │   │
+│   │   ├── Services/
+│   │   │   ├── Gateway/TzsmmPay/
+│   │   │   │   ├── Payment.php
+│   │   │   │   ├── TzsmmPay.php
+│   │   │   │
+│   │   │   ├── DepositService.php
+│   │   │   └── OrderService.php
+│   │   │
+│   │   └── Settings/
+│   │       └── GeneralSettings.php
+│   │
+│   └── routes/
+│       └── web.php
 │
-├── db.sql                                # SQL structure for necessary tables
-│
-└── README.md                             # Project documentation
+├── README.md
+└── db.sql
 
 ````
 
